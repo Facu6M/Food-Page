@@ -1,0 +1,153 @@
+/* img low of nav */
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#container img {
+    width: 49%;
+    height: 450px;
+}
+
+/* main */
+
+
+.main_container{
+display: flex;
+justify-content: space-between;
+margin: 0px auto;
+width: 1100px;
+margin-top:100px;
+}
+
+.main_img img{
+height: 300px;
+}
+
+.main_child {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.p_short{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700px;
+    letter-spacing: 7px;
+}
+
+.p_big{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+}
+
+.p_grey{
+    font-size: 13px;
+    color: grey;
+}
+
+.main_child img{
+    height: 50px;
+    width: 60px;
+}
+
+/* aside  */
+
+.container_aside{
+    height: 120px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h5 {
+    font-family: 65px;
+    color: black;
+}
+
+.main_button{
+    height: 50px;
+    width: 150px;
+    outline: none;
+    border: 0px solid;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.container_img_aside{
+    height: 300px;
+    width: 100%;
+    background-image: url("https://www.65ymas.com/uploads/s1/11/03/11/6/10-sandwich.jpeg");
+    background-repeat: no-repeat;
+    background-size:100% ;
+    margin-top: 150px;
+}
+
+/* carts */
+
+aside{
+    margin-top: 130px;
+}
+
+.container_carts{
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    margin: 0px auto;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.container_carts img{
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+}
+
+h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 25px;
+}
+
+.container_carts img:hover{
+    transition: 0.7s;
+    transform: scale(1.15);
+}
+
+.imagen{
+    margin-top: 100px;
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    .main_container{
+        flex-wrap: wrap;
+        width: 600px;
+        margin-top:50px;
+    }
+    .main_child{
+        display: flex;
+        justify-content: center;
+        height: 300px;
+        width: 60%;
+    }
+    #container img{
+        height: 200px;
+    }
+    .container_carts{
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+    }
+    .imagen img{
+        width: 300px;
+    }
+}

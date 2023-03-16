@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+ul {
+    cursor: pointer;
+    list-style: none;
+}
+
+.hamb{
+ height: 30px;
+ width: 30px;
+ cursor: pointer;
+ display: none;
+}
+
+.img_header img{
+    height: 70px;
+    width: 120px;
+}
